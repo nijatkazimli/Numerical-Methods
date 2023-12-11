@@ -1,7 +1,7 @@
 function result = integrateOverUnitCircle(f)
     % Parameters for the numerical integration
-    num_theta = 1000; % Number of divisions in the angular direction
-    num_r = 1000;    % Number of divisions in the radial direction
+    num_theta = 10000; % Number of divisions in the angular direction
+    num_r = 10000;    % Number of divisions in the radial direction
 
     % Calculate the differentials in theta and r
     delta_theta = 2 * pi / num_theta; % Angular step size

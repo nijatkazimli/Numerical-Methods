@@ -1,6 +1,7 @@
 function test()
     disp('Sanity check');
     % Define a simple function for testing
+    warning off;
     testFunction = @(x, y) x + y;
     % Evaluate the custom integration method
     customResult = integrateOverUnitCircle(testFunction);
